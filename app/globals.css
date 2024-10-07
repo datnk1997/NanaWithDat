@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bodyStyle {
+    background-color: #ffe2e29c;
+}
+.heroStyle {
+    /*background-color: #ffd0d0;*/
+}
+
+#hero {
+    .nameStyle {
+        display: flex;
+        flex-wrap: nowrap;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-style: normal;
+        justify-content: center;
+        margin: 0 12px;
+    }
+
+    .loveIcon {
+        width: 5%;
+        height: 50%;
+        align-self: center;
+        margin: 0 12px;
+    }
+}
